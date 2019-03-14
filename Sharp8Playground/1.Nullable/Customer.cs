@@ -17,6 +17,5 @@
         public string Country { get; set; }
 
         public Address(string country) => Country = country;
-
     }
 }

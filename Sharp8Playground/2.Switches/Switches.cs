@@ -55,7 +55,7 @@ namespace Sharp8Playground.Switches
                 { Address: { Country: "RU" } } => "Na zdorovje!",
                 { Address: { Country: string country } } => $"Welcome, customer from {country}",
                 // Так не работает
-                // { Address: { Country: var country } } => $"Welcome, customer from {country}",
+                //{ Address: { Country: var country } } => $"Welcome, customer from {country}",
                 { Address: { } } => "Welcome, customer whose address has no country!",
                 { } => "Welcome, customer of an unknown address!",
                 _ => "Welcome, nullness my old friend!"

@@ -7,38 +7,38 @@ namespace Sharp8Playground
     {
         static void Main(string[] args)
         {
-            //#region 1. Nullable reference
-            //Customer? customer = new Customer("Somebody");
+            #region 1. Nullable reference
+            Customer? customer = new Customer("Somebody");
 
-            //Console.WriteLine(customer.Address?.Country ?? "Address unknown");
+            Console.WriteLine(customer.Address?.Country ?? "Address unknown");
 
-            //Address? address = customer.Address;
+            Address? address = customer.Address;
 
-            //if (address != null)
-            //{
-            //    Console.WriteLine(address.Country);
-            //}
+            if (address != null)
+            {
+                Console.WriteLine(address.Country);
+            }
 
-            //if (customer.Address != null)
-            //{
-            //    Console.WriteLine(customer.Address.Country);
-            //}
+            if (customer.Address != null)
+            {
+                Console.WriteLine(customer.Address.Country);
+            }
 
-            //string? t = null;
+            string? t = null;
 
-            //PrintLength(t);
+            PrintLength(t);
 
-            //Console.WriteLine(t[0]);
+            Console.WriteLine(t[0]);
 
-            //object? b = null;
+            object? b = null;
 
-            ////b.GetHashCode();
+            //b.GetHashCode();
 
-            //if (!ReferenceEquals(b, null))
-            //{
-            //    Console.WriteLine(b.GetHashCode());
-            //}
-            //#endregion
+            if (!ReferenceEquals(b, null))
+            {
+                Console.WriteLine(b.GetHashCode());
+            }
+            #endregion
 
             #region 2. Switches
 
@@ -55,12 +55,12 @@ namespace Sharp8Playground
 
             Index start = 2;
             Index end = ^2;
-            Index a = new Index(1, false);
 
             Range all = ..;
             Range startOnly = start..;
             Range endOnly = ..end;
             Range startAndEnd = start..end;
+            Range range = 1..3;
 
             string text = "hello world";
 
@@ -82,11 +82,6 @@ namespace Sharp8Playground
             #endregion
 
             Console.Write(Environment.NewLine);
-
-            #region 4. More asyncs
-
-            #endregion
-
         }
 
         static void PrintLength(string? text)

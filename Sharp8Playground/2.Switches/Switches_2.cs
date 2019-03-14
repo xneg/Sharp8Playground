@@ -42,6 +42,8 @@ namespace Sharp8Playground._2.Switches
         {
             switch (order)
             {
+                case { Pizza: Pepperoni { SausageCount: var count } } when count > 5:
+                    break;
                 case { Pizza: Pepperoni { SausageCount: var count } }:
                     Console.WriteLine($"This is pepperoni with {count} sausages");
                     break;

@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.28705.295
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharp8Playground", "Sharp8Playground\Sharp8Playground.csproj", "{0E65A084-C1A9-4CBE-B109-9462160A80C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharp8Playground.Asyncs", "Sharp8Playground.Asyncs\Sharp8Playground.Asyncs.csproj", "{9F2C0699-3D6D-4E42-9C0F-F73019BEC7AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0E65A084-C1A9-4CBE-B109-9462160A80C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E65A084-C1A9-4CBE-B109-9462160A80C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E65A084-C1A9-4CBE-B109-9462160A80C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F2C0699-3D6D-4E42-9C0F-F73019BEC7AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F2C0699-3D6D-4E42-9C0F-F73019BEC7AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F2C0699-3D6D-4E42-9C0F-F73019BEC7AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F2C0699-3D6D-4E42-9C0F-F73019BEC7AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

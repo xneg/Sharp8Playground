@@ -19,16 +19,4 @@ namespace Sharp8Playground._3.Asyncs
             Console.WriteLine("... done");
         }
     }
-
-    class AsyncUtil
-    {
-        public static async Task Main()
-        {
-            using await (var resource = new AsyncResource())
-            {
-                await resource.PerformWorkAsync();
-            }
-            Console.WriteLine("After the using await statement");
-        }
-    }
 }
